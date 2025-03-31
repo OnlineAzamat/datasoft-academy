@@ -21,7 +21,6 @@ export default function Footer() {
           <h4 className="font-bold md:text-[64px] text-[44px] text-white">{ t("enter") }</h4>
           <a href="https://forms.gle/cbLp8wa77entY43z5" target="_blank" className="no-underline">
             <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]">
-              <img src="/headset.svg" alt="headset" width={24} height={24} className="w-[24px] h-[24px] object-contain" />
               <span className="font-normal text-[16px] text-white">DATASOFT Academy</span>
             </button>
           </a>

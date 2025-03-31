@@ -23,7 +23,7 @@ i18n
         translation: karakalpak
       }
     },
-    lng: window.localStorage.getItem("siteLang") && "en",
+    lng: window.localStorage.getItem("siteLang") || "en",
     interpolation: {
       escapeValue: false,
     }

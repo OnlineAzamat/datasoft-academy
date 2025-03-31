@@ -6,7 +6,7 @@ import { navVariants } from '../utils/motion';
 import styles from '../styles/index';
 
 const Navbar = () => {
-  const [selLang, setSetselectedLang] = useState('en');
+  const [selLang, setSetselectedLang] = useState(window.localStorage.getItem('siteLang') || 'en');
 
   const handleChangeLanguage = (e) => {
     setSetselectedLang(e.target.value);
