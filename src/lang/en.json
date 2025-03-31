@@ -1,0 +1,48 @@
+{
+  "about_title": "DataSoft Academy",
+  "about_text": "is one of the key initiatives of the <1>{{organization}}</1>. Our online platform offers accessible courses in the most in-demand IT fields, including computer literacy, web development, programming, design, and more. The project's goal is to help young people acquire digital skills, enhance their competitiveness in the job market, and get inspired by the opportunities the technological world has to offer.",
+  
+  "courses": "The courses",
+  "choose": "Choose the course you want to learn",
+  "android": "Android Development",
+  "computer": "Computer Literacy",
+  "python": "Python Development",
+  "frontend": "Frontend Development",
+  "graphic": "Graphic design",
+
+  "explore_title": "What will you get?",
+  "explore_1": "Courses from experienced professionals",
+  "explore_2": "Support from mentors and the community",
+  "explore_3": "Certificates and a ready-made portfolio",
+  "explore_4": "A chance to start an IT career while still studying",
+  "explore_5": "Data Soft Academy — your first step into the future.",
+
+  "team_slug": "Team",
+  "team_title": "Our Team Values",
+  "team_item_1-title": "Our Values",
+  "team_item_1-text": "At the Qiriq Qiz community and the Data Soft Academy platform, we strive not just to educate — we build a culture based on meaning, support, and a drive for positive change.",
+  "team_item_2-title": "Support and Empowerment",
+  "team_item_2-text": "We believe in the power of girls and women to change their lives and society through knowledge, confidence, and support.",
+  "team_item_3-title": "Inclusivity",
+  "team_item_3-text": "We create a safe, open, and welcoming environment for everyone, regardless of skill level, age, or social status.",
+  "team_item_4-title": "Curiosity",
+  "team_item_4-text": "We encourage a passion for learning, growth, and experimentation. Progress starts with a question.",
+  "team_item_5-title": "Honesty and Transparency",
+  "team_item_5-text": "We act with integrity, openness, and responsibility — both within our team and in working with participants.",
+  "team_item_6-title": "Result-Driven Approach",
+  "team_item_6-text": "Our goal is real change: from mastering skills to creating new career opportunities and fostering leadership development.",
+  "team_item_7-title": "Collaboration",
+  "team_item_7-text": "We are stronger together. Ideas, knowledge sharing, and joint projects are the foundation of our growth.",
+
+  "partners_slug": "Partners",
+  "partners_title": "Data Soft's partners",
+  "partners_partner1": "Committee for Family and Women of the Republic of Karakalpakstan",
+  "partners_partner2": "womansoul.uz – a web platform for women providing psychological support, guidance, understanding, and methods to overcome difficulties and unlock inner strength.",
+  
+  "feedback_name": "Sherzod Shermatov",
+  "feedback_1": "The Minister of ICT",
+  "feedback_1-text": "Meeting with the Minister of Digital Technologies As part of the development of digital education and support for women's initiatives in the IT sector, we held an important meeting with <1>Sherzod Shermatov</1>, the Minister of Digital Technologies of the Republic of Uzbekistan. During the visit, we presented the concept and key directions of <3>{{feedback_1_2}}</3>. We discussed opportunities to expand access for women to high-quality IT education, the role of mentorship, and the importance of women's involvement in the country's digital economy. Support at this level is an inspiration for us and a confirmation that we are moving in the right direction.",
+  "feedback_2-text": "Meeting with the Leadership of the Committee for Family and Women Affairs. As part of our mission to empower women and promote digital literacy among different generations, we held an important meeting with: Zulaykho Bakhriddinovna Makhkamova – Deputy Chair of the Committee for Family and Women Affairs of the Republic of Uzbekistan, Maryam Ahmedova – Chair of the Committee for Family and Women Affairs of the Republic of Karakalpakstan. During the visit, we shared the educational initiatives of the Data Soft Academy platform. The discussion focused on joint efforts to support women in the regions through educational, mentorship, and digital programs. This meeting reaffirms the importance of uniting government and civil initiatives for sustainable development and women's leadership in Uzbekistan.",
+  "enter": "Enter the DATA SOFT ACADEMY",
+  "copyright": "All rights reserved."
+}
