@@ -6,6 +6,7 @@
   scroll-behavior: smooth;
 }
 
+
 .text-secondary-white {
   color: #c7c7c7;
 }
@@ -109,3 +110,9 @@
 .carousel-control-prev, .carousel-control-next {
   width: 5% !important;
 }
+
+/* @media (max-width: 640px) {
+  .carousel-control-prev, .carousel-control-next {
+    width: 3% !important;
+  }
+} */

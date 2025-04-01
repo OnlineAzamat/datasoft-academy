@@ -41,7 +41,7 @@ export const GetStarted = () => {
           className="flex-[0.75] flex justify-center flex-col"
         >
           <TitleText title={`${t("explore_title")}`} />
-          <div className='mt-[31px] flex flex-col max-w-[370px] gap-[24px]'>
+          <div className='mt-[31px] flex flex-col md:max-w-[370px] gap-[24px]'>
             {
               startingFeatures.map((feature, index) => (
                 <StartSteps 

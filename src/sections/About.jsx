@@ -21,13 +21,10 @@ const About = () => {
         <TypingText title="| DataSoft Academy" textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
-        > 
+          className="mt-[8px] font-normal md:text-[32px] sm:text-3xl text-[20px] leading-[1.5rem] text-center text-secondary-white"
+        >
           <span className="font-extrabold text-white">DataSoft Academy </span>
           <Trans i18nKey="about_text" values={{ organization: "Karakalpak Research Hub" }} components={{ 1: <b className="font-extrabold text-white" /> }} />
-          {/* — это одно из ключевых направлений сообщества <span className='font-extrabold text-white'>Qiriq Qiz</span>, созданное для того, чтобыдевушки могли свободно и уверенно развиваться в сфере информационных технологий.<br />
-          Наша онлайн-платформа предлагает доступные курсы по самым востребованнымИТ-направлениям: компьютерная грамотность, веб-разработка, программирование, дизайн и многое другое. <br />
-          Цель проекта— помочь девушкам овладеть цифровыми навыками, повысить свою конкурентоспособность на рынке труда и вдохновиться возможностями, которые открывает технологическиймир. */}
         </motion.p>
         <motion.img
           variants={fadeIn('up', 'tween', 0.3, 1)}

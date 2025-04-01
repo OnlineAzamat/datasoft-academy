@@ -19,7 +19,7 @@ export const Feedback = () => {
                 <h4 className="font-bold sm:text-[32px] text-[26px] sm:loading-[36px] text-white">{ t("feedback_name") }</h4>
                 <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">{ t("feedback_1") }</p>
               </div>
-              <p className="mt-[0.5rem] font-normal text-[18px] leading-[29px] text-white">🤝 <Trans i18nKey="feedback_1-text" values={{ feedback_1_2: "DataSoft Academy" }} components={{
+              <p className="mt-[0.5rem] font-normal text-[18px] leading-[29px] max-sm:leading-[1.5rem] text-white">🤝 <Trans i18nKey="feedback_1-text" values={{ feedback_1_2: "DataSoft Academy" }} components={{
                 1: <b className="font-extrabold text-white" />,
                 3: <b className="font-extrabold text-white" />
               }} /></p>
@@ -46,7 +46,7 @@ export const Feedback = () => {
                 <h4 className="font-bold sm:text-[32px] text-[26px] sm:loading-[36px] text-white">{t("feedback_name")}</h4>
                 <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">{t("feedback_1")}</p>
               </div>
-              <p className="mt-[0.5rem] font-normal text-[18px] leading-[29px] text-white">👩‍💼 {t("feedback_2-text")}</p>
+              <p className="mt-[0.5rem] font-normal text-[14px] leading-[29px] max-sm:leading-[1.5rem] text-white">👩‍💼 {t("feedback_2-text")}</p>
             </div>
 
             <div

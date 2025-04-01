@@ -6,11 +6,11 @@ export default function PartnerCard({ imgUrl, title, subtitle, link, index }) {
   return (
     <motion.div
       variants={fadeIn('up', 'spring', index * 0.5, 1)}
-      className="flex md:flex-row flex-col gap-4"
+      className="flex sm:flex-row flex-col gap-4 max-sm:items-center"
     >
-      <img src={imgUrl} alt="planet-01" className="md:w-[370px] w-full h-[250px] rounded-[32px]" />
+      <img src={imgUrl} alt="planet-01" className="md:w-[370px] md:h-[250px] w-[150px] rounded-[32px]" />
       <div className="w-full flex justify-between items-center">
-        <div className="md:ml-[62px] flex flex-col max-w-[650px]">
+        <div className="md:ml-[62px] flex flex-col max-w-[650px] max-sm:text-center">
           <h4 className="font-normal lg:text-[42px] text-[26px] text-white">{title}</h4>
           <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">{subtitle}</p>
         </div>
