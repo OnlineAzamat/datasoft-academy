@@ -61,7 +61,7 @@ export const Courses = () => {
           title={<>{t("choose")}</>} 
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] md:gap-5 max-md:gap-2">
           {exploreCourses.map((world, index) => (
             <CourseCard 
               key={world.id}

@@ -18,7 +18,7 @@ export const OurTeam = () => {
       subtitle: t("team_item_1-text"),
     },
     {
-      title: '🤝 '  + t("team_item_2-title"),
+      title: '🤝 ' + t("team_item_2-title"),
       subtitle: t("team_item_2-text"),
     },
     {
@@ -59,10 +59,10 @@ export const OurTeam = () => {
         >
           <TypingText title={`| ${t("team_slug")}`} />
           <TitleText title={`${t("team_title")}`} />
-          <CCarousel className='mt-[48px] min-h-[270px] border-4 max-sm:border-none border-secondary-white rounded-3xl flex flex-wrap justify-between gap-[24px]' interval={5000} controls>
+          <CCarousel className='mt-[48px] min-h-[270px] border-4 max-sm:border-none border-secondary-white rounded-3xl flex gap-[24px]' controls>
             {
               teamValues.map((feature) => (
-                <CCarouselItem className="flex-1 flex flex-col w-full" key={feature.title}>
+                <CCarouselItem className="flex-1 flex flex-col" key={feature.title}>
                   <Teams 
                     {...feature}
                   />
