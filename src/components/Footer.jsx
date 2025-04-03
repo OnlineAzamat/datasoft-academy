@@ -16,18 +16,18 @@ export default function Footer() {
       className={`${styles.paddings} py-8 relative`}
     >
       <div className="footer-gradient" />
-      <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
-        <div className="flex items-center justify-between flex-wrap gap-5">
+      <div className={`${styles.innerWidth} mx-auto flex flex-col sm:gap-8 gap-4`}>
+        <div className="flex items-center justify-between flex-wrap sm:gap-5">
           <h4 className="font-bold md:text-[64px] text-[34px] max-sm:text-2xl text-white">{ t("enter") }</h4>
           <a href="https://forms.gle/cbLp8wa77entY43z5" target="_blank" className="no-underline">
-            <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]">
+            <button type="button" className="flex items-center h-fit sm:py-4 py-2 px-6 bg-[#25618b] rounded-[32px] gap-[12px]">
               <span className="font-normal text-[16px] text-white">DATASOFT Academy</span>
             </button>
           </a>
         </div>
 
         <div className="flex flex-col">
-          <div className="mb-[50px] h-[2px] bg-white opacity-10"/>
+          <div className="sm:mb-[50px] mb-6 h-[2px] bg-white opacity-10"/>
           <div className="flex items-center justify-between flex-wrap gap-4">
             <h4 className="font-extrabold text-[24px] text-white">DataSoft Academy</h4>
             <p className="font-normal text-[14px] text-white opacity-50">

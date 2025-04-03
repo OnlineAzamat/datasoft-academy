@@ -33,7 +33,7 @@ export const Partners = () => {
       >
         <TypingText title={`| ${t("partners_slug")}`} textStyles="text-center" />
         <TitleText title={t("partners_title")} textStyles="text-center" />
-        <div className="mt-[50px] flex flex-col gap-[30px]">
+        <div className="mt-[50px] flex flex-col gap-[30px] max-sm:gap-0">
           {partners.map((insight, index) => (
             <PartnerCard 
               key={`insight-${index}`}
