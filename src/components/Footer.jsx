@@ -19,7 +19,7 @@ export default function Footer() {
       <div className={`${styles.innerWidth} mx-auto flex flex-col sm:gap-8 gap-4`}>
         <div className="flex items-center justify-between flex-wrap sm:gap-5">
           <h4 className="font-bold md:text-[64px] text-[34px] max-sm:text-2xl text-white">{ t("enter") }</h4>
-          <a href="https://forms.gle/cbLp8wa77entY43z5" target="_blank" className="no-underline">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTjincP3rEqUggJ11pxJjwpDUB89fQFQLKSLlaUr1gZhJJEg/viewform?usp=header" target="_blank" className="no-underline">
             <button type="button" className="flex items-center h-fit sm:py-4 py-2 px-6 bg-[#25618b] rounded-[32px] gap-[12px]">
               <span className="font-normal text-[16px] text-white">DATASOFT Academy</span>
             </button>

@@ -16,7 +16,7 @@ export const Partners = () => {
       title: t("partners_partner1")
     },
     {
-      imgUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Emblem_of_Karakalpakstan.svg/330px-Emblem_of_Karakalpakstan.svg.png',
+      imgUrl: '/logo.png',
       title: t("partners_partner2"),
       link: 'https://womansoul.uz/'
     }

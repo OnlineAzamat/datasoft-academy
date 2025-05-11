@@ -10,11 +10,11 @@ export const socials = [
   {
     name: 'instagram',
     url: '/instagram.svg',
-    link: 'https://instagram.com/data_life_centre'
+    link: 'https://www.instagram.com/data_soft_academy/'
   },
   {
     name: 'telegram',
     url: '/telegram.png',
-    link: 'https://t.me/datalifecentre'
+    link: 'https://t.me/data_soft_academy'
   },
 ];
